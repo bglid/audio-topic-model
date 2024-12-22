@@ -56,7 +56,7 @@ mypy:
 .PHONY: check-safety
 check-safety:
 	poetry check
-	poetry run safety check --full-report
+	poetry run safety check --full-report --policy-file=safety-policy.yml
 	poetry run bandit -ll --recursive audio_topic_model tests
 
 .PHONY: lint
