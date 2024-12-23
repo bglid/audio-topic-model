@@ -1,4 +1,3 @@
-# type: ignore[attr-defined]
 """Micro service for performing topic modeling on audio data."""
 
 import sys
