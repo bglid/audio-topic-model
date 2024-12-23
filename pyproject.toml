@@ -56,7 +56,7 @@ pytest-cov = "^6.0.0"
 click = "8.0.2"
 py = " 1.11.0"
 safety = ">=2.2.0"
-typer = "0.15.0"
+typer = "0.15.1"
 
 [tool.black]
 # https://github.com/psf/black
