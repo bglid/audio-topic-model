@@ -58,7 +58,7 @@ py = " 1.11.0"
 safety = ">=2.2.0"
 typer = "0.15.1"
 scikit-learn = "1.5.2"
-matplotlib = "3.7.1"
+matplotlib = "3.9.4"
 spacy = "3.7.5"
 ipykernel = "6.25.2" #If being run on vscode
 bertopic = "0.16.4"
